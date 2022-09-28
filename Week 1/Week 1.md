@@ -3,25 +3,25 @@
 
 ### Unix Command Line
 - Shell adalah program yang digunakan untuk berkomunikasi yang menghubungkan user dengan sistem operasi
-- CLI atau Command Line Interface adalah shell yang berbasis teks (contohnya : sh, bach, cmd.exe)
+- CLI atau Command Line Interface adalah shell yang berbasis teks _(contohnya : sh, bach, cmd.exe)_
 - Untuk mengakses CLI bisa menggunakan terminal
 - GUI atau Graphical User Interface adalah shell dalam berbentuk grafis visual dimana user berinteraksi dengan icon dan button (contohnya : windows 10)
 - `computer/film/annable.mov` “computer” adalah root dari data structure
-- Navigation
-    `pwd` : Mengetahui posisi saat ini berada dimana
-    `ls` : Mengetahui list isi direktori
-    `cd` : untuk berpindah direktori
-- Manipulation
-    `touch` : Membuat file baru
-    `mkdir` : Membuat direktori baru
-    `cp` : Menyalin file ke tempat lain
-    `mv` : Memindahkan lokasi file atau rename nama file
-    `rm` : Menghapus file
-    `rm -r` : menghapus direktori bersama isinya
-- Melihat isi file
-    `head` : Melihat beberapa baris awal dari file
-    `tail` : Melihat beberapa baris akhir dari file
-    `cat` : Menampilkan seluruh isi file
+- Navigation <br>
+    `pwd` : Mengetahui posisi saat ini berada dimana <br>
+    `ls` : Mengetahui list isi direktori <br>
+    `cd` : untuk berpindah direktori <br>
+- Manipulation <br>
+    `touch` : Membuat file baru <br>
+    `mkdir` : Membuat direktori baru <br>
+    `cp` : Menyalin file ke tempat lain <br>
+    `mv` : Memindahkan lokasi file atau rename nama file <br>
+    `rm` : Menghapus file <br>
+    `rm -r` : menghapus direktori bersama isinya <br>
+- Melihat isi file <br>
+    `head` : Melihat beberapa baris awal dari file <br>
+    `tail` : Melihat beberapa baris akhir dari file <br>
+    `cat` : Menampilkan seluruh isi file <br>
 
 
 ### Git & Github
@@ -29,15 +29,15 @@
 - Github merupakan salah satu tempat untuk menyimpan kode kita (contoh lain ada gitlab dan bitbucket)
 - Origin adalah variabel dari branch yang kita buat
 - Main merupakan sebutan dari branch utama project kita
-- Command
-`git config` : dilakukan di awal instalasi git untuk setup username dan email
-`git init` : memasukkan git ke dalam kode project kita (dilakukan hanya sekali)
-`git add` : Menambahkan perubahan ke dalam git
-`git commit` : Menyimpan hasil add yang sebelumnya agar terdata
-(Jika ada perubahan lagi maka lakukan `git add` kemudian `git commit` lagi agar terupdate)
-`git push` : Mengupload kode project kita ke github
-`git remote` : Menghubungkan project yang sebelumnya ada di local computer ke cloud github
-`git clone` : mendownload kode dari github ke local computer
+- Command <br>
+    `git config` : dilakukan di awal instalasi git untuk setup username dan email <br>
+    `git init` : memasukkan git ke dalam kode project kita (dilakukan hanya sekali) <br>
+    `git add` : Menambahkan perubahan ke dalam git <br>
+    `git commit` : Menyimpan hasil add yang sebelumnya agar terdata <br>
+    _(Jika ada perubahan lagi maka lakukan `git add` kemudian `git commit` lagi agar terupdate)_ <br>
+    `git push` : Mengupload kode project kita ke github <br>
+    `git remote` : Menghubungkan project yang sebelumnya ada di local computer ke cloud github <br>
+    `git clone` : mendownload kode dari github ke local computer <br>
 
 ## Day 2 : HTML
 - HTML berfungsi sebagai kerangka dasar dalam pembuatan website yang menampung kode kode lain seperti CSS dan Javascript
@@ -45,14 +45,15 @@
 - Code editor ada banyak seperti Sublime, Vim tetapi kita menggunakan Visual Studio Code
 - Dalam VS Code terdapat banyak extension yang dapat mempermudah proses coding salah satunya adalah live server
 - Kegunaan live server adalah kita dapat melihat kode di browser tanpa harus refresh lagi
-- Struktur dari element HTML adalah:
-`<p>` opening tag
-`text` content 
-`</p>` closing tag
+- Struktur dari element HTML adalah: <br>
+    `<p>` opening tag <br>
+    `text` content <br>
+    `</p>` closing tag <br>
 Contoh tag HTML yang populer atau sering digunakan adalah `<img>`, `<video>`, `<table>`
-- Semantic HTML adalah penggunaan element HTML sesuai dengan kebutuhan konten (contohnya penggunaan tag `<header>`,`<nav>`, `<footer>`)
+- Semantic HTML adalah penggunaan element HTML sesuai dengan kebutuhan konten <br>
+_(contohnya penggunaan tag `<header>`,`<nav>`, `<footer>`)_ <br>
 - Keunggulan semantic HTML adalah meningkatkan accessibility, meningkatkan SEO dan mudah dimaintain
-- Deployment adalah proses untuk menyebarkan web atau aplikasi yang sudah kita buat agar bisa digunakan oleh orang lain.  untuk mendeploy website bisa menggunakan [netlify]https://www.netlify.com/
+- Deployment adalah proses untuk menyebarkan web atau aplikasi yang sudah kita buat agar bisa digunakan oleh orang lain.  untuk mendeploy website bisa menggunakan [netlify](https://www.netlify.com/)
     ```
     <!DOCTYPE html>
     <html lang="en">
@@ -72,10 +73,10 @@ Contoh tag HTML yang populer atau sering digunakan adalah `<img>`, `<video>`, `<
 ## Day 3 : CSS
 - CSS bertugas untuk memberi styling seperti warna, tata letak dan lainnya untuk tampilan visual sebuah website
 - Struktur dasar CSS adalah `.elementHTML {property : value}`
-- Penulisan CSS ada 3 macam:
-    - Inline : Menyisipkan CSS ke dalam tag HTML `<p style=”color: red”> hello </p>`
-    - Internal : Meletakkan CSS `<style>`di bagian `<head>` HTML
-    - Eksternal : Membuat file terpisah dengan format `.css`
+- Penulisan CSS ada 3 macam: <br>
+    - Inline : Menyisipkan CSS ke dalam tag HTML `<p style=”color: red”> hello </p>` <br>
+    - Internal : Meletakkan CSS `<style>`di bagian `<head>` HTML <br>
+    - Eksternal : Membuat file terpisah dengan format `.css` <br>
 - Untuk memanggil class bisa menggunakan `.className` sedangkan id `#idName`
 - Flexbox adalah metode untuk mengatur tata letak items yang bisa digunakan untuk mengatur alignment, direction dan order
     ```
