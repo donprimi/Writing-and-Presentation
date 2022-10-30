@@ -1,4 +1,4 @@
-# WEEK 6
+# WEEK 1 - Front End Bootcamp
 
 ## Day 1 : ReactJS
 - Javascript biasanya hanya bisa berjalan di web browser dengan bantuan HTML
