@@ -48,9 +48,17 @@ StudentInfo.propTypes = {
 - Pertama tama harus membuat tempa penyimpanannya yaitu `store`
 - `const store = createStore (() => {})` didalamnya nanti ada function
 - `action` digunakan untuk merubah data. dia merupakan function isinya object (dalam object ada property `type`)
+- `payload` gunanya untuk membawa datanya	
+	
+	```
+	const Actions = {
+	 type: '',
+	 payload: ''
+	}	
+	```
+
 - `dispatch` digunakan sebagai perantara agar action yang ada didalam dispatch bisa mengubah data dalam reducer
 - `...state` merupakan spread, dipakai agar initialState yang sudah ditulis bisa muncul semua
-- `payload` gunanya untuk membawa datanya
 
 - Tahapan:
  	- Membuat tempat penyimpanan seperti gudang berupa `store` (di folder baru dan filenya .js)
